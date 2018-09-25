@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-    num_trials = 100000
+    num_trials = 500000
     w_list = [0.01, 0.1, 1]
     fig, ax = plt.subplots(1,len(w_list), sharex= True, sharey= True, figsize=(len(w_list)*7,4))
     plt.suptitle(f'Stochastic simulation for Assignment 6 ({num_trials} trials )')

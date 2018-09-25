@@ -38,7 +38,7 @@ def TFT_ALLD_invasion(N, w):
     return population.count('A')/N
 
 if __name__ == '__main__':
-    num_trials = 100000
+    num_trials = 500000
     num_workers = 250
     os.makedirs(f'{num_trials}_nt', exist_ok=True)
     os.chdir(f'{num_trials}_nt')
